@@ -1,0 +1,28 @@
+package okpin4;
+
+public class okpin4{
+    public static void main(String[] args) {
+        int a = 135;
+        int z = 244;
+        boolean hasil;
+
+        hasil = a == z;
+        System.out.println("Apakah a == z ? " + hasil);
+
+        hasil = a != z;
+        System.out.println("Apakah a != z ? " + hasil);
+
+        hasil = a > z;
+        System.out.println("Apakah a > z ? " + hasil);
+
+        hasil = a < z;
+        System.out.println("Apakah a < z ? " + hasil);
+
+        hasil = a >= z;
+        System.out.println("Apakah a >= z ? " + hasil);
+
+        hasil = a <= z;
+        System.out.println("Apakah a <= z ? " + hasil);
+    }
+
+}
