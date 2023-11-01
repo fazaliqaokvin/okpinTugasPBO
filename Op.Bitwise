@@ -1,0 +1,33 @@
+package okpin2;
+
+public class okpin2 {
+
+    public static void main(String[] args) {
+        int a = 30;
+        int b = 45;
+        int hasil;
+
+        hasil = a & b;
+        System.out.println("Hasil dari a & b : " + hasil);
+
+        hasil = a | b;
+        System.out.println("Hasil dari a | b : " + hasil);
+
+        hasil = a ^ b;
+        System.out.println("Hasil dari a ^ b : " + hasil);
+
+        hasil = ~a;
+        System.out.println("Hasil dari ~a : " + hasil);
+
+        hasil = a << 2;
+        System.out.println("Hasil dari a << 1 : " + hasil);
+
+        hasil = a >> 1;
+        System.out.println("Hasil dari a >> 1 : " + hasil);
+
+        hasil = a >>> 2;
+        System.out.println("Hasil dari a >>> 1 : " + hasil);
+
+    }
+
+}
